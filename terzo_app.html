@@ -97,7 +97,6 @@
             margin-left: 10%;
             margin-right: 10%;
             flex-wrap: wrap;
-            margin-bottom: 5%;   /*da rimuovere*/
         }
         .container1 h2{
           color: black;
@@ -173,7 +172,7 @@
           color: black;
         }
         .container4 img {
-
+            
             width: 100%;
         }
 
@@ -202,7 +201,7 @@
 
         .carousel-item img {
           width: 500px;
-          height: 500px; /* Imposta l'altezza desiderata */
+          height: 600px; /* Imposta l'altezza desiderata */
           object-fit: cover; /* Mantiene le proporzioni dell'immagine */
         }
 
@@ -370,91 +369,217 @@
 
 
   <body>
-      <div class="overlay"></div>
-      <div class="navbar navbar-expand-md">
-          <div class="container-fluid">
+    <div class="overlay"></div>
+    <div class="navbar navbar-expand-md">
+        <div class="container-fluid">
 
-              <!-- Bottone per il menu hamburger -->
-              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <!-- Link del menu -->
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="primo_app.html">1° appartamento</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="secondo_app.html">2° appartamento</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="terzo_app.html">3° appartamento</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="dove_siamo.html">Dove Siamo</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="contatti.html">Contatti</a>
-                      </li>
+            <!-- Bottone per il menu hamburger -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Link del menu -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="primo_app.html">1° appartamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secondo_app.html">2° appartamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="terzo_app.html">3° appartamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dove_siamo.html">Dove Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatti.html">Contatti</a>
+                    </li>
 
-                      <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="Italian" width="20"> <!-- Bandiera italiana -->
-                      </a>
-                      <ul class="dropdown-menu text-center" aria-labelledby="languageDropdown">
-                          <li>
-                              <a class="dropdown-item" href="de/index.html">
-                                  <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="German" width="20"> Deutsch
-                              </a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="en/index.html">
-                                  <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="English" width="20"> English
-                              </a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="es/index.html">
-                                  <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" alt="Spanish" width="20"> Español
-                              </a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="fr/index.html">
-                                  <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="French" width="20"> Français
-                              </a>
-                          </li>
-                        </ul>
-                      </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="Italian" width="20"> <!-- Bandiera italiana -->
+                    </a>
+                    <ul class="dropdown-menu text-center" aria-labelledby="languageDropdown">
+                        <li>
+                            <a class="dropdown-item" href="de/index.html">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="German" width="20"> Deutsch
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="en/index.html">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="English" width="20"> English
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="es/index.html">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" alt="Spanish" width="20"> Español
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="fr/index.html">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="French" width="20"> Français
+                            </a>
+                        </li>
+                      </ul>
+                    </li>
 
-                  </ul>
-              </div>
-          </div>
-      </div>
-
-      <div class="menu">
-        <div class="logo">
-            <a href="index.html">
-                <img src="photo\home\logo.png" alt="logo" >
-            </a>
-        </div>
-
-        <div class="container1">
-            <div class="text">
-                <h2>Terzo Appartamento - Prossimamente disponibile</h2>
-                <p>Piccolo attico con zona giorno open space, camera da letto con materasso alla francese, bagno e terrazza privata. Nell'appartamento sono presente WiFi e climatizzatore. ​</p>
+                </ul>
             </div>
         </div>
+    </div>
 
+    <div class="menu">
+      <div class="logo">
+        <a href="index.html">
+          <img src="photo\home\logo.png" alt="logo" >
+      </a>
+      </div>
 
-        <div class="footer">
-            <p>Per prenotazioni e domande:<a href="mailto:parsifalhouse682@gmail.com">parsifalhouse682@gmail.com</a> <br> <br></p>
-            <p>Chioggia eventi e news: <a href="https://www.chioggia.org/index.php?area=84&menu=2&page=309&lingua=4">chioggia.org</a><br> <br></p>
-            <p>Informazioni viabilità ZTL: <a href="https://portaleztl.chioggia.org">portaleztl.chioggia.org</a><br> <br></p>
-            <div class="footer-text">CIN1:IT027008C2SIR37RKR &nbsp;&nbsp;&nbsp; CIN2:IT027008C2V6IT3UFJ &nbsp;&nbsp;&nbsp; CIN3:IT027008C2ULKDFGAV</div>
+    <div class="container1">
+        <div class="text">
+            <h2>Terzo Appartamento</h2>
+            <p>Attico situato all’ultimo piano, caratterizzato da un luminoso open space che unisce soggiorno, zona pranzo e cucina in un ambiente moderno e accogliente. La terrazza è l'ideale per momenti di relax e aperitivi all’aperto. L'appartamento è dotato di WiFi, riscaldamento ed aria condizionata. ​</p>
         </div>
+    </div>
+    <div class="container2">
+      <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114161128.jpg" class="d-block w-100" alt="os1" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114161426.jpg" class="d-block w-100" alt="os2" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114160945.jpg" class="d-block w-100" alt="os3" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114161002.jpg" class="d-block w-100" alt="os4" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\finestra.jpeg" class="d-block w-100" alt="os5" >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <div class="text">
+            <h2>Open Space</h2>
+            <p>L’open space è il cuore dell’attico, un ambiente ampio e luminoso che unisce eleganza e funzionalità. La cucina è dotata di tutti i comfort: piano cottura a induzione, forno, microonde, lavastoviglie e frigorifero. La zona living accoglie un grande divano, che all’occorrenza si trasforma in un comodo letto, ideale per ospiti. Grandi vetrate garantiscono luce naturale durante il giorno, mentre l’illuminazione soffusa crea un’atmosfera accogliente di sera.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="text">
+            <h2>Camera</h2>
+            <p>Questa camera accogliente si trova sotto un suggestivo tetto con travi in legno a vista, che dona calore e carattere all’ambiente.  Il letto matrimoniale alla francese, con una testiera imbottita in tessuto, offre comfort e stile, perfetto per il riposo. L’illuminazione a LED lungo la parete crea un’atmosfera intima e moderna, mentre la finestra sul soffitto lascia filtrare luce naturale. Una cassettiera dal design essenziale offre spazio per riporre gli effetti personali, completando l’arredo con eleganza e funzionalità. Un rifugio perfetto per il riposo.</p>
+        </div>
+        <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4600">
+              <img src="photo\terzo\IMG20250114153725.jpg" class="d-block w-100" alt="camera1" >
+            </div>
+            <div class="carousel-item" data-bs-interval="4500">
+              <img src="photo\terzo\IMG20250114153829.jpg" class="d-block w-100" alt="camera2" >
+            </div>
+            <div class="carousel-item" data-bs-interval="4500">
+              <img src="photo\terzo\IMG20250114154522.jpg" class="d-block w-100" alt="camera3" >
+            </div>
+            <div class="carousel-item" data-bs-interval="4500">
+                <img src="photo\terzo\IMG20250114154739.jpg" class="d-block w-100" alt="camera4" >
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+    </div>
+    <div class="container4">
+      <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4700">
+            <img src="photo\terzo\IMG20250114155355.jpg" class="d-block w-100" alt="bagno1" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114155051.jpg" class="d-block w-100" alt="bagno2" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114155150.jpg" class="d-block w-100" alt="bagno3" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114155909.jpg" class="d-block w-100" alt="bagno4" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\dettdoccia.jpeg" class="d-block w-100" alt="bagno5" >
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <img src="photo\terzo\IMG20250114154905.jpg" class="d-block w-100" alt="bagno6" >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <div class="text">
+            <h2>Bagno</h2>
+            <p>Il bagno è moderno e ben organizzato, dotato di tutti i comfort essenziali. Dispone di un ampio lavabo d’appoggio su mobile sospeso, wc e bidet dal design minimalista e una spaziosa doccia con chiusura in vetro scuro e finiture effetto legno. Il termoarredo bianco aggiunge praticità, mentre i colori neutri e i materiali di qualità creano un’atmosfera elegante e rilassante.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="text">
+            <h2>Terrazzo</h2>
+            <p>Goditi il tramonto su questo accogliente terrazzo privato, perfetto per rilassarsi con un drink o fare colazione all’aperto. Dotato di lavatrice, tavolino con due sedie e stendibiancheria, unisce comfort e praticità. A due passi da negozi, ristoranti e bacari, è la scelta ideale per un soggiorno autentico e rilassante! </p>
+        </div>
+        <div id="carouselExampleAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4800">
+              <img src="photo\terzo\IMG20250114162117.jpg" class="d-block w-100" alt="terrazzo1" >
+            </div>
+            <div class="carousel-item active" data-bs-interval="4800">
+                <img src="photo\terzo\terrazza2.jpeg" class="d-block w-100" alt="terrazzo2" >
+            </div>
+            <div class="carousel-item active" data-bs-interval="4800">
+                <img src="photo\terzo\IMG20250114161532.jpg" class="d-block w-100" alt="terrazzo3" >
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+    </div>
+
+      <div class="footer">
+          <p>Per prenotazioni e domande:<a href="mailto:parsifalhouse682@gmail.com">parsifalhouse682@gmail.com</a> <br> <br></p>
+          <p>Chioggia eventi e news: <a href="https://www.chioggia.org/index.php?area=84&menu=2&page=309&lingua=4">chioggia.org</a><br> <br></p>
+          <p>Informazioni viabilità ZTL: <a href="https://portaleztl.chioggia.org">portaleztl.chioggia.org</a><br> <br></p>
+          <div class="footer-text">CIN1:IT027008C2SIR37RKR &nbsp;&nbsp;&nbsp; CIN2:IT027008C2V6IT3UFJ &nbsp;&nbsp;&nbsp; CIN3:IT027008C2ULKDFGAV</div>
+      </div>
 
 
-  </body>
+</body>
 </html>
